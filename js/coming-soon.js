@@ -58,7 +58,7 @@
     if(textData in attendees === true){
       modal.find('.modal-body > p').append("<span>안녕하세요 " + textData +"님 <i class=\"fas fa-cocktail\"></i></span>")
       modal.find('.modal-body > p').append("<br>")
-      modal.find('.modal-body > p').append("<span class='code_span'>" + textData + "님의 코드는 " + "<strong>"+ attendees[textData] + "! </strong> </span>" )
+      modal.find('.modal-body > p').append("<span class='code_span'>" + textData + "님의 코드는 " + "<strong> '"+ attendees[textData] + "' ! </strong> </span>" )
       modal.find('.modal-body > p').append("<br>")
       modal.find('.modal-body > p').append("<span>어서 선물을 주러 가볼까요 !</span>" )
     } else if(textData in attendees === false){
