@@ -81,7 +81,11 @@ video {
   -webkit-transform-origin: bottom right;
   transform-origin: bottom right;
 }
-
+.code_span{
+  font-weight: bolder;
+  color : #005cbf;
+  font-style : italic;
+}
 .masthead .masthead-content h1 {
   font-size: 2.5rem;
 }
