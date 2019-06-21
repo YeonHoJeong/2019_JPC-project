@@ -43,9 +43,9 @@
               (Ex : Max)</p>
 
             <div class="input-group input-group-newsletter">
-              <input type="email" class="form-control" placeholder="이름 (ex: 차재원, Max ...)" aria-label="이름 (ex: 차재원, Max ...)" aria-describedby="basic-addon">
+              <input type="text" class="form-control" placeholder="이름 (ex: 차재원, Max ...)" aria-label="이름 (ex: 차재원, Max ...)" aria-describedby="basic-addon">
               <div class="input-group-append">
-                <button class="btn btn-secondary" type="button">확인!</button>
+                <button class="btn btn-secondary" id = "check" type="button" data-toggle="modal" data-target=".bs-example-modal-sm">확인!</button>
               </div>
             </div>
           </div>
@@ -54,8 +54,21 @@
     </div>
   </div>
 
-  <div class="social-icons">
-
+  <div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">코드 확인</h4>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <p>One fine body&hellip;</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-primary" data-dismiss="modal"> 선물 주러가기 <i class="fas fa-gift"></i></button>
+        </div>
+      </div><!-- /.modal-content -->
+    </div>
   </div>
 
   <!-- Bootstrap core JavaScript -->
